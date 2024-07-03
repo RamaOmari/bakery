@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0%;
+    border: 0%;
+}
+
+
+
+
+
+
+/*first headr*/
+.contaner{
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+
+.headr{
+
+    background-image: url(img/drew-coffman-1872.jpg);
+    
+    height: 100vh;
+    color: #fff;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+   
+}
+.links a{
+    
+    font-size: 20px;
+    margin-left: 20px;
+    color: #ddd;
+    text-decoration: none;
+    float: left;
+    
+}
+.logo{
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    
+    
+}
+.links{
+    
+    float: left;
+   
+    margin-left: 30%;
+    margin-top: 30px;
+    
+   
+}
+
+.logo img{
+    width: 170px;
+    margin-right: 40px;
+    
+}
+
+.links a.activ{
+    color:rgb(224, 220, 210);
+}
+
+.button1{
+    border-radius: 30px;
+    background-color: #c1ab84;
+    color: #fff;
+}
+
+
+
+.clr{
+    clear: both;
+}
+
+.content h1{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 91.2px;
+    color:  rgb(255, 255, 255);
+
+    
+}
+.content{
+    margin-top: 20%;
+   
+  
+    text-align: center;
+   
+}
+
+
+.content h3{
+    font-family: 'Alegreya Sans', sans-serif;
+   font-size: 22px;
+   line-height: 40.92px;
+   color: rgba(255, 255, 255, 0.92);
+   font-weight: 400;
+   margin-bottom: 20px;
+   
+
+}
+.content p{
+    
+    
+    width: 60%;
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    line-height:  44.64px;
+    color: rgba(255, 255, 255, 0.92);
+    text-align: center;
+    margin-top: 20px;
+    
+    
+
+}
+
+
+
+.button a{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.1px;
+    text-decoration: none;
+   
+   
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 4px;
+    border-radius: 5px;
+
+    
+
+   
+}
+.button{
+    
+    
+    text-align: center;
+}
+
+
+
+
+.button2{
+    background-color:transparent !important  ;
+    color: white;
+    border: 2px solid white;
+    border-radius:25px;
+    
+}
+
+
+
+
+.ram2{
+    width: 32px;
+    height: 57px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    animation-name: top;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes top{
+    from{
+        top: 10%;
+        opacity: 1;
+    }
+    to{
+        top: 60%;
+        opacity: 0.3;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section2*/
+.info{
+    padding: 80px 0;
+    
+    
+}
+.img{
+ 
+    
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    
+
+}
+.rr{
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align:left;
+    color:#705b39;
+    text-align: left;
+    margin-left: -45px;
+
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+    
+   
+}
+.rr li.i{
+   
+    background-color: #fff;
+
+}
+
+   
+.img img{
+    
+  
+    
+    width: 90%;
+   
+    margin-left: 3%;
+    
+
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+    
+    
+    
+}
+
+
+.infoo {
+    
+
+    float: left;
+    
+    margin: auto;
+   
+ 
+    
+    width: 45%;
+    
+ 
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+   
+}
+
+.infoo h3 {
+    
+    margin-right: 40%;
+    color:rgb(193, 171, 132);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.64px;
+    
+    
+}
+
+
+.contaner{
+    width: 80%;
+    margin: auto;
+}
+.infoo h2{
+    font-family: 'Alegreya', serif;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    font-weight: 400;
+    line-height:  44.16px
+    
+    
+
+}
+.infoo h3 {
+    
+    margin-right: 30%;
+    margin-bottom: 20px;
+    font-family:"Dancing Script";
+    
+}
+.infoo p {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:rgb(104, 104, 104);
+    font-size:17px;
+    font-weight: 400;
+    line-height: 31.62px;
+    
+}
+.infoo ul li i{
+    
+    font-size: 20px;
+    background-color:white;
+    padding:12px;
+    color: #c1ab84;
+    border:1px solid #e5e5e5;
+    border-radius: 50% ;
+    margin-top: 10px;
+    
+}
+.rr li samp{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.62px;
+    color: rgb(104, 104, 104);
+
+    
+}
+
+.clrr{
+    clear: both;
+}
+/* end  section2*/
+
+
+
+
+
+
+
+
+
+
+/*   section3*/
+.location{
+    padding: 80px 0;
+    background-color:whitesmoke;
+    
+   
+    
+  
+}
+.loinfo{
+    float: left;
+    font-size: 17px;
+    margin: auto;
+    width: 40%;
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    color: rgb(104, 104, 104);
+    line-height: 31.62px;
+    
+    margin-left: 8%;
+     
+}
+.loinfo h2{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    line-height: 44.16px;
+    color:rgb(48, 48, 48);
+    margin-bottom: 30px;
+    
+}
+
+.tow{
+    margin-top: 20px  
+    
+    
+    
+}
+.one{
+    margin-bottom: 5px;
+}
+.loinfo p{
+    font-family: 'Alegreya Sans', sans-serif;
+   
+}
+.imgg{
+    
+    float: left;
+    width: 40%;
+    margin-top:1%;  
+    margin-left: 3%;
+}
+.imgg img{
+    width: 90%;
+    margin-left: 5%; 
+}
+.clear{
+    clear: both;
+}
+/*  end section3*/
+
+/* first section4*/
+
+.contenarr{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.baking{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.bacinfo{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41.4px;
+    color:  rgb(48, 48, 48);
+}
+.bacinfo h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41.4px;
+}
+.bacinfo p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height:31.62px ;
+    color: rgb(136, 136, 136);
+    margin-bottom: 30px;
+    
+
+
+}
+
+.aimg{
+    
+    float: left;
+    width: 33.33%;
+   
+    padding: 20px;
+    box-sizing: border-box;
+}
+.aimg h3{
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    font-weight: 400;
+    list-style: 30.36px;
+    color: rgb(48, 48, 48);
+}
+.aimg p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.62px;
+    color: rgb(104, 104, 104);
+}
+.aimg img{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+/*  end section4*/
+
+/*  first section5*/
+.contanerr{
+    width: 100%;
+    margin: auto;
+    
+}
+.map{
+    padding: 90px 20px;
+    background-color: whitesmoke;
+    
+   
+}
+.infomap{
+    float: left;
+    width: 40%;
+    margin-left: 90px;
+    
+    text-align: left;
+    
+    
+}
+.infomap h2{
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.16px;
+    color: rgb(48, 48, 48);
+    margin-bottom: 20px;
+}
+.mapp{
+    float: left;
+}
+ 
+
+
+.infomap p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color:rgb(104, 104, 104);
+    line-height:31.62px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.listt samp{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color:rgb(104, 104, 104);
+    line-height:31.62px;
+    font-weight: 400;
+
+}
+.listt{
+    width: 90%;
+    margin-left: 1px;
+}
+.list {
+    
+    text-align: left;
+    margin: 1px;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    
+}
+.list i{
+   background-color:#8e7754;
+    padding:10px;
+    color:#fff;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: -36px;
+}
+
+.list samp{
+    text-align: right;
+
+}
+.mapp{
+    width: 20%;
+    margin-left: 80px;
+    
+}
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+/*  first section6*/
+
+.rama{
+    background-color:#403d38;
+    width: 100%;
+    height: 410px;
+    
+}
+.contener{
+    width: 80%;
+    margin: auto;
+      
+}
+
+    
+
+.row{
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+    margin: auto;
+}
+.row h4{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.84px;
+    text-align: left;
+    margin: 35px 35px;
+    color: rgb(255, 255, 255);
+}
+
+.s{
+    
+    margin-left: 36px;
+}
+.ss{
+    text-align: left;
+    
+
+}
+.row p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.76px;
+    color: rgb(150, 150, 150);
+    width: 100%;
+    
+}
+.e{
+    margin-bottom: 20px;
+}
+.row ul li{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31.62px;
+    color: rgb(150, 150, 150);
+    text-align: justify;
+    border-bottom: 0.2px solid grey;
+
+}
+
+.row ul p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31.62px;
+    color: rgb(150, 150, 150);
+    text-align: justify;
+
+}
+
+.q{
+    margin-left: 10px;
+}
+
+
+   
+
+    
+.row span{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31.62px;
+    color: rgb(150, 150, 150);
+    
+
+}
+.row ul i{
+    color: #969696;
+    
+
+}
+
+.m{
+    
+    text-align: left;
+    
+    
+}
+.row a{
+    text-decoration: none;
+    color: #969696;
+    
+}
+.m li{
+    border-bottom: #1b1b1b;
+}
+
+
+
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+/*  first section7*/
+.end{
+    background-color:#353330;
+    opacity: 0.9;
+    padding: 5%;
+    
+    
+   
+}
+.endend{
+    text-align: center;
+}
+.endimg{
+   
+    margin-bottom: 40px;
+   
+}
+.endinfo{
+   color:  rgb(119, 119, 119);
+   font-size: 15px;
+   margin-bottom: 50px;
+}
+.icon i{
+    background-color: #484540;
+    color: #8c8a86;
+    padding: 13px;
+    
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
